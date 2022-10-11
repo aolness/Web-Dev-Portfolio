@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+body {
+  font-family: 'Crete Round', fantasy;
+  background-color: rgb(12, 155, 238);
+  color: rgb(0, 0, 0);
+  margin: 2% 2%;
+  padding: 0;
+  border: 3px solid black;
+  border-radius: 6px;
+  font-size:medium;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Luckiest Guy';
+}
+
+footer {
+  background-color: rgba(252, 0, 218, 0.568);
+  max-height: fit-content;
+  padding: 1%;
+}
+
+main{
+  background-color: rgba(252, 0, 218, 0.568);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 2%;
+}
+
+nav a {
+  background-color: rgb(12, 155, 238);
+  border: 5px solid rgb(12, 155, 238);
+  border-radius: 10px;
+  color: black;
+  font-size: 2em;
+  font-weight: bolder;
+  line-height: 1;
+}
+
+nav a:hover{
+  background-color: rgb(43, 255, 0);
+  color: black;
+  border: 5px solid black;
+}
+
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+tbody{
+  text-align: center;
+}
+
+caption{
+  background-color: rgb(255, 157, 157);
+  border: 2px solid black;
+  font-weight: bolder;
+  padding:1% 0;
+}
+
+tr th {
+  background-color: rgb(12, 155, 238);
+  border: 2px solid black;
+  padding:0px 5px;
+}
+tr:nth-child(even) {
+  background-color: aqua;
+}
+
+tr:nth-child(odd) {
+  background-color: blueviolet;
+}
+
+tr td{
+  border: 2px solid black;
+  padding:0px 5px;
+}
+
+fieldset{
+  font-family: 'Crete Round', fantasy;
+  background-color: rgb(255, 0, 0);
+}
+
+legend{
+  font-family: 'Crete Round', fantasy;
+  background-color: rgb(255, 0, 0);
+  padding:1px;
+}
+
+label{
+  font-family: 'Crete Round', fantasy;
+  background-color: rgb(255, 0, 0);
+}
+
+input{
+  font-family: 'Crete Round', fantasy;
+  background-color: rgb(12, 155, 238);
+  padding:5px;
+  
+}
+
+button{
+  font-family: 'Crete Round', fantasy;
+  color: black;
+  background-color: rgb(12, 155, 238);
+  padding:5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-navigation{
+  background-color: rgba(252, 0, 218, 0.568);
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-header {
+  background-color:rgba(252, 0, 218, 0.568);
+  min-height: fit-content;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content:flex-start;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
